@@ -33,14 +33,21 @@ const parser = new Parser({
     
     text += `<ul>`;
     
-    // 최신 10개의 글의 제목과 링크를 가져온 후 text에 추가
-    for (let i = 0; i < 10; i++) {
-        const {title, link} = feed.items[i];
+    // 최신 글의 개수와 10 중 작은 값을 사용해 반복
+    for (let i = 0; i < Math.min(feed.items.length, 10); i++) {
+        const { title, link } = feed.items[i];
         console.log(`${i + 1}번째 게시물`);
         console.log(`추가될 제목: ${title}`);
         console.log(`추가될 링크: ${link}`);
         text += `<li><a href='${link}' target='_blank'>${title}</a></li>`;
     }
+
+    // 만약 글이 하나도 없는 경우를 대비한 처리
+    if (feed.items.length === 0) {
+        console.log('게시물이 없습니다.');
+        text += `<li>게시물이 없습니다.</li>`;
+    }
+
 
     text += `</ul>`;
     
