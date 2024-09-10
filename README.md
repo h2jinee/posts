@@ -26,4 +26,4 @@
 
 | No. | Title                              |
 |-----|------------------------------------|
-| 1 | [개발자는 문제 해결 능력에 앞서 문제 정의 능력이 중요하다.  ](https://hoojjang.tistory.com/1) |
+| 1 | [Oracle Client 그리고 JDBC  ](https://hoojjang.tistory.com/2) |
