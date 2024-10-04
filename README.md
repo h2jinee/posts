@@ -26,5 +26,6 @@
 
 | No. | Title                              |
 |-----|------------------------------------|
-| 1 | [[프로그래머스 / Java] 무인도 여행](https://hoojjang.tistory.com/3) |
-| 2 | [Oracle Client 그리고 JDBC  ](https://hoojjang.tistory.com/2) |
+| 1 | [[백준 / Java] 1987번 알파벳](https://hoojjang.tistory.com/4) |
+| 2 | [[프로그래머스 / Java] 무인도 여행](https://hoojjang.tistory.com/3) |
+| 3 | [Oracle Client 그리고 JDBC  ](https://hoojjang.tistory.com/2) |
